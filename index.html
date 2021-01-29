@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="containerTabs">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'firstGuide')">FIT GUIDE</button>
+            <button class="tablinks" onclick="openTab(event, 'care')">CARE</button>
+            <button class="tablinks" onclick="openTab(event, 'materials')">MATERIALS</button>
+        </div>
+
+        <div class="containerTabsContent">
+            <div id="firstGuide" class="tabcontent">
+                <p class="dummyText"> </p>
+
+            </div>
+
+            <div id="care" class="tabcontent">
+                <p class="dummyText"> </p>
+
+            </div>
+
+            <div id="materials" class="tabcontent">
+                <div class="precParent">
+                    <div class="firstPer">
+                        <h3>50%</h3>
+                        <span>cashmere</span>
+                    </div>
+
+                    <div class="secondPer">
+                        <h3>64%</h3>
+                        <span>wool</span>
+                    </div>
+
+                    <div class="ThirdPer">
+                        <h3>4%</h3>
+                        <span>modal</span>
+                    </div>
+                </div>
+                <div>
+                    <p class="dummyText"> </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="containerAccordian">
+
+        <button onclick="openAcc(0)"  class="accordion">FIT GUIDE</button>
+        <div class="panel">
+            <p class="dummyText"></p>
+        </div>
+
+        <button onclick="openAcc(1)" class="accordion">CARE</button>
+        <div class="panel">
+            <p class="dummyText"></p>
+        </div>
+
+        <button onclick="openAcc(2)" class="accordion">MATERIALS</button>
+        <div class="panel">
+
+            <div class="precParent">
+                <div class="firstPer">
+                    <h3>50%</h3>
+                    <span>cashmere</span>
+                </div>
+
+                <div class="secondPer">
+                    <h3>64%</h3>
+                    <span>wool</span>
+                </div>
+
+                <div class="ThirdPer">
+                    <h3>4%</h3>
+                    <span>modal</span>
+                </div>
+            </div>
+            <div>
+                <p class="dummyText"> </p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
